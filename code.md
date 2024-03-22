@@ -17,7 +17,7 @@ switch:
 
   - platform: template
     name: "Open Door"
-    id: open_door  # 定义ID以供引用
+    id: open_door  
     turn_on_action:
       - switch.turn_off: gpio_2
       - delay: 1s
@@ -25,7 +25,7 @@ switch:
 
   - platform: template
     name: "Close Door"
-    id: close_door  # 定义ID以供引用
+    id: close_door
     turn_on_action:
       - switch.turn_off: gpio_4
       - delay: 1s
